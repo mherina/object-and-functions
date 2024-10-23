@@ -1,0 +1,7 @@
+function greeting ({mherina}) {
+return <h1>hello, {mherina}</h1>;
+
+}
+export default function app() {
+return<greeting name ="world" />
+}
